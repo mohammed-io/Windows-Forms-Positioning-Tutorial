@@ -9,34 +9,9 @@ Public Class Form1
     End Sub
     ' The end of magical lines
 
-    Private _LeftValue As Integer
-    Public Property LeftValue() As Integer
-        Get
-            Return _LeftValue
-        End Get
-        Set(ByVal value As Integer)
-            _LeftValue = value
-            Notify("LeftValue")
-        End Set
-    End Property
-
-    Private _TopValue As Integer
-    Public Property TopValue() As Integer
-        Get
-            Return _TopValue
-        End Get
-        Set(ByVal value As Integer)
-            _TopValue = value
-            Notify("LeftValue")
-        End Set
-    End Property
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         ' Dont think a lot about this, it's like a magic!
-        MovingButton.DataBindings.Add(New Binding("Left", Me, "LeftValue"))
-        MovingButton.DataBindings.Add(New Binding("Top", Me, "TopValue"))
-
         HorizontalTrackBar.DataBindings.Add(New Binding("Maximum", Me, "Width"))
 
         VerticalTrackBar.DataBindings.Add(New Binding("Maximum", Me, "Height"))
@@ -44,6 +19,8 @@ Public Class Form1
 
         VerticalTrackBar.Value = VerticalTrackBar.Maximum
         UpdateFormText()
+        MovingButton.Top = 0
+        MovingButton.Left = 0
     End Sub
 
     Private Sub MovingButton_Click(sender As Object, e As EventArgs) Handles MovingButton.Click
@@ -51,13 +28,13 @@ Public Class Form1
     End Sub
 
     Private Sub HorizontalTrackBar_Scroll(sender As Object, e As EventArgs) Handles HorizontalTrackBar.Scroll
-        LeftValue = HorizontalTrackBar.Value
+        MovingButton.Left = HorizontalTrackBar.Value
 
         UpdateFormText()
     End Sub
 
     Private Sub VerticalTrackBar_Scroll(sender As Object, e As EventArgs) Handles VerticalTrackBar.Scroll
-        TopValue = VerticalTrackBar.Maximum - VerticalTrackBar.Value
+        MovingButton.Top = VerticalTrackBar.Maximum - VerticalTrackBar.Value
 
         UpdateFormText()
     End Sub
