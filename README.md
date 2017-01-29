@@ -14,10 +14,10 @@ In fact they are wrappers on [Location](https://msdn.microsoft.com/en-us/library
 Location Propery can be set in the propery window, and will give the same result.
 
 The Left property (as descriped in the documentation):
-> An Int32 representing the distance, in pixels, between the __**left edge**__ of the control and the *left edge* of its container's client area.
+> An Int32 representing the distance, in pixels, between the __**left edge**__ of the control and the **left edge** of its container's client area.
 
 The Right is a bit different
-> An Int32 representing the distance, in pixels, between the __**right edge**__ of the control and the *left edge* of its container's client area
+> An Int32 representing the distance, in pixels, between the __**right edge**__ of the control and the **left edge** of its container's client area
 
 As you see, the Right = Left + Width
 
