@@ -1,0 +1,10 @@
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\bin\Debug\PositioningTesting.exe
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\bin\Debug\PositioningTesting.pdb
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\bin\Debug\PositioningTesting.xml
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\obj\Debug\PositioningTesting.vbprojResolveAssemblyReference.cache
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\obj\Debug\PositioningTesting.Form1.resources
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\obj\Debug\PositioningTesting.Resources.resources
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\obj\Debug\PositioningTesting.vbproj.GenerateResource.Cache
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\obj\Debug\PositioningTesting.exe
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\obj\Debug\PositioningTesting.xml
+c:\users\mohammed\documents\visual studio 2017\Projects\PositioningTesting\PositioningTesting\obj\Debug\PositioningTesting.pdb
