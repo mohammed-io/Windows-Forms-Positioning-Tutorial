@@ -1,4 +1,4 @@
-# Windows-Forms-Positioning-Tutorial
+# Windows Forms Positioning Tutorial
 It's a tutorial for windows forms positioning
 
 # Introduction
