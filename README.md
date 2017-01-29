@@ -3,7 +3,7 @@ It's a tutorial for windows forms positioning
 
 # Introduction
 
-In all Windows Forms controls, they there's 4 properties indicates the position of the element relatively to the parent element (Button to Form).
+In all Windows Forms controls, they there's 4 properties indicates the position of the element relatively to the parent element (i.e. Button to Form).
 
 These are: [Left](https://msdn.microsoft.com/en-us/library/system.windows.forms.control.left(v=vs.110).aspx), [Top](https://msdn.microsoft.com/en-us/library/system.windows.forms.control.top(v=vs.110).aspx), [Right](https://msdn.microsoft.com/en-us/library/system.windows.forms.control.right(v=vs.110).aspx), and [Bottom](https://msdn.microsoft.com/en-us/library/system.windows.forms.control.bottom(v=vs.110).aspx),
 The Right and Bottom properties are Read Only, their value equals Left + Width and Top + Height respectively.
